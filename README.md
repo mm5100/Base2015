@@ -18,3 +18,6 @@ We use [http://rspec.info/](RSpec) as our test runner, [https://github.com/cheez
 ## Debugging in pry
 You can use pry to stop test execution. Just add "binding.pry" in code where you need it. 
 Type 'exit' to continue or 'exit!' to stop the test.
+
+# What's next?
+Commit your code:)
