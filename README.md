@@ -22,18 +22,20 @@ Type 'exit' to continue or 'exit!' to stop the test.
 # What's next?
 Commit your code:)
 
-####Trouble.shot
+###Trouble.shot
 Assuming that installation of this environment on Linux/OsX is straightforward to the limits, you are probably using a windows.
 
 This is detailed installation:
+
 1. Install ruby 2.1.x with [RubyInstaller](http://rubyinstaller.org/downloads/) and DevKit for it (for proper version of ruby)
 2. Installers should update $PATH on they own but make sure it is done properly. Basically "<Ruby_path>\bin", "<DevKit_path>\bin", "<DevKit_path>\mingq\bin" should be in you $PATH in the system variable not the user variable).
 3. Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (you probably want to use it in windows command line to select proper options during installation)
 4. Open some shell and run "gem install bundler" (if you get ssh error see below)
 5. Clone repo go to directory and run "bundle install" (if you get problem with DevKit go to p.2)
-6. Download chromedriver and put it in $PATH like you did with ruby and DevKit
+6. Download chromedriver and put it in $PATH like you did with ruby and DevKit1. 
 
 Now you are ready to run some tests.
+
 1. Set browser in env variable like 'set BROWSER = "chrome"' or '$env:BROWSER = "chrome"' or 'setx BROWSER "chrome"' or whatever 
 2. Go to repo path and run tests "rspec spec\general\<your_spec>.rb"
 
