@@ -22,6 +22,8 @@ RSpec.configure do |config|
     @browser_res_x = 1366 
     @browser_res_y = 768
 
+    BROWSER = 'chrome'
+
     case ENV['BROWSER']
     when 'firefox'
       @browser = Watir::Browser.new :firefox
